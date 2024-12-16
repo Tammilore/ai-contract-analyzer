@@ -31,16 +31,32 @@ export const POST = async (req: Request) => {
       file: fileUrl,
       schema: [
         {
-          name: "contractSuggestions",
-          type: "array",
-          description: "An array of clause suggestions extracted from the contract document.",
-          children: [
-            { name: "type", type: "string", description: "Clause type." },
-            { name: "title", type: "string", description: "Clause title." },
-            { name: "description", type: "string", description: "Clause description." },
-            { name: "exactClause", type: "string", description: "Exact text of the clause." },
-          ],
-        },
+          "name": "contractSuggestions",
+          "type": "array",
+          "description": "An array of clause suggestions extracted from the contract document.",
+          "children": [
+            {
+              "name": "type",
+              "type": "string",
+              "description": "This field indicates the level of attention the clause requires. high suggests critical examination, medium is a caution, and low might offer a beneficial negotiation point or a general advantage."
+            },
+            {
+              "name": "title",
+              "type": "string",
+              "description": "A concise label for easy identification of the clause and its implications."
+            },
+            {
+              "name": "description",
+              "type": "string",
+              "description": "This field is for the contextual reasoning for the assigned type, detailing potential risks, disadvantages, or advantages and what should be done or avoided."
+            },
+            {
+              "name": "exactClause",
+              "type": "string",
+              "description": "This field is for the exact text of the clause, ensuring fidelity to the source document and accuracy in evaluation."
+            }
+          ]
+        }
       ],
     });
 
