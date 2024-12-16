@@ -5,7 +5,7 @@ Kontra is an **AI-powered contract analysis tool** that detects risky clauses, h
 ## Key Features
 - **Risky Clause Detection**: Identifies clauses in contracts that may pose risks or need careful consideration.
 - **Negotiation Opportunities**: Highlights areas where you can negotiate better terms.
-- **Unfair Agreements Protection**: Protects you from signing contracts with unfair terms.
+- **Unfair Agreements Detection**: Detects unfair terms that you shouldn't agree to.
 
 ## Technologies Used
 - **Next.js**: Framework for building the application.
