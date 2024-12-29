@@ -76,5 +76,5 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 This project is open-source under the [MIT License](LICENSE).
 
 ## Documind
-This project is built using Documind, an open-source platform for extracting structured data from documents using AI. [Check it out](https://github.com/DocumindHQ/documind).
+This project is built using [Documind](https://www.documind.xyz), an open-source platform for extracting structured data from documents using AI. [Check it out](https://github.com/DocumindHQ/documind).
 
